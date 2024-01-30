@@ -3,6 +3,7 @@
   "version": "4.1.0",
   "description": "A Node.js library for accessing Amazon SWF",
   "author": "Eric Abouaf <eric.abouaf@gmail.com>",
+  "type": "commonjs",
   "engines": {
     "node": ">=0.8.0"
   },
@@ -21,14 +22,14 @@
     "url": "http://github.com/neyric/aws-swf.git"
   },
   "dependencies": {
-    "async": "^2.1.2",
-    "aws-sdk": "^2.2.22",
-    "lodash": "^4.17.15"
+    "@aws-sdk/client-swf": "^3.502.0",
+    "async": "^3.2.5",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "coveralls": "^3.0.6",
-    "mocha": "^6.2.0",
-    "mocha-lcov-reporter": "0.0.1"
+    "mocha": "^10.2.0",
+    "mocha-lcov-reporter": "1.3.0"
   },
   "scripts": {
     "test": "mocha",
